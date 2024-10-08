@@ -12,11 +12,17 @@
 </head>
 <body class="text-slate-700  xs:text-sm sm:bg-green-300 md:bg-blue-300 lg:bg-cyan-900">
   <navbar class="xs:w-full lg:w-full h-auto relative mb-2"> 
-    <ul class="xs:text-base xs:space-x-2 xs:px-2 xs:py-2 shadow-md flex flex-row-reverse space-x-8 text-2xl lg:py-4 lg:px-24  font-semibold"> 
-      <h1 class="xs:w-16 xs:h-auto xs:left-3  xs:text-xl  xs:top-4 lg:w-16 h-auto font-semibold lg:text-4xl absolute  inset-y-0 lg:left-20  lg:top-4">BLOG</h1>
-      <li class="px-2 py-2 rounded-lg border-b-2 hover:border-cyan-500">home</li>
-      <li class="px-2 py-2 rounded-lg border-b-2 hover:border-cyan-500 ">kategori</li>
-      <li class="px-2 py-2 rounded-lg border-b-2 hover:border-cyan-500">blog</li>
+    <ul class="xs:text-sm xs:space-x-2 xs:px-2 xs:py-2 shadow-md flex flex-row-reverse space-x-8 lg:text-2xl lg:py-4 lg:px-24  font-semibold"> 
+      <h1 class="xs:w-16 xs:h-auto xs:left-3  xs:text-xl  xs:top-4 lg:w-16 h-auto font-semibold lg:text-4xl absolute  inset-y-0 lg:left-20  lg:top-4">MindCode's</h1>
+      <li class="px-2 py-2 rounded-lg border-b-2 hover:border-cyan-500">
+        <a href="#">profile</a>
+      </li>
+      <li class="px-2 py-2 rounded-lg border-b-2 hover:border-cyan-500 ">
+        <a href="#">kategori</a>
+      </li>
+      <li class="px-2 py-2 border-b-2 hover:border-cyan-500">
+        <a href="#">home</a>
+      </li>
     </ul>
   </navbar>
   
@@ -26,34 +32,39 @@
         
          <h1 class="xs:text-lg xs:w-96 sm:text-[18px] lg:w-1/2 text-center lg:text-[28px]  font-bold text-slate-800 justify-items-center ">menampilkan hello world menggunakan java , blablala yayaya</h1>
             <br> <br>
-         <div class=" xs:text-[10px] xs:top-24 w-full font-semibold absolute  flex justify-between lg:top-28 sm:text-xs">
-              <h2 class="text-slate-500">[ Penulis : onoy ]</h2> 
-              <p class="text-slate-500">[ Selasa, 01 Okt 2024 23:25 WIB ]</p>
-            </div>
-     
+            <x-span-sosmed></x-span-sosmed>       
          <br>
           <div class=" xs:w-full xs:h-auto sm:h-auto lg:w-full ">
               <img class="xs:w-full xs:aspect-video lg:w-full lg:aspect-video  object-cover object-center rounded-md shadow-md " src="{{asset('images/pexels-photo-356056.jpeg')}}" alt="">
           </div>
-          <br>
+          
+          <span class="w-full xs:text-[10px] my-4 text-right">Published &emsp14; : &emsp14; 02 Oct 2024</span>
+          
           <p class="xs:text-sm font-semibold sm:text-sm lg:text-lg"> 
-Putrajaya - Founder & Chairman CT Corp, Chairul Tanjung (CT), menjadi pembicara kunci atau keynote speaker dalam Forum Serantau Yayasan Pembangunan Ekonomi Islam Malaysia (YAPEIM) di Putrajaya, Malaysia, hari ini. CT disambut hangat oleh Perdana Menteri (PM) Malaysia, Anwar Ibrahim.
-CT datang ke Malaysia bersama rombongan yang terdiri dari pimpinan sejumlah organisasi masyarakat (Ormas) Islam di Indonesia. Mereka yang ikut dalam rombongan tersebut antara lain Rais Aam Nahdatul Ulama (NU) KH Miftachul Akhyar, Wakil Ketua MUI serta pimpinan Muhammadiyah Anwar Abbas, Mantan Menko Perekonomian Hatta Rajasa, dan Mantan Menteri Pendidikan dan Kebudayaan M Nuh.
+            Pendahuluan: Produktivitas di tempat kerja adalah kunci untuk mencapai tujuan bisnis. Namun, banyak faktor yang dapat mengganggu fokus dan efisiensi kerja. Dalam artikel ini, kami akan membahas lima cara efektif untuk meningkatkan produktivitas Anda dan tim Anda.
 
-CT juga didampingi Ketua Muhammadiyah Syafiq Abdul Mughni, Imam Besar Masjid Istiqlal Nasaruddin Umar, Pengurus PBNU Mughits Al Irogi, CEO detikNetwork Abdul Aziz serta CEO Trans Retail Indonesia Shafie Shamsuddin.
+1. Atur Prioritas Tugas Sebelum memulai hari, luangkan waktu untuk menentukan tugas mana yang paling penting. Gunakan metode seperti Eisenhower Matrix untuk membantu Anda memprioritaskan tugas berdasarkan urgensi dan pentingnya. Dengan demikian, Anda bisa fokus pada apa yang benar-benar penting.
 
-Baca artikel detiknews, "Silaturahmi CT, Pimpinan NU-Muhammadiyah ke PM Anwar Ibrahim, Sepakati Kerja Sama" selengkapnya https://news.detik.com/berita/d-7566402/silaturahmi-ct-pimpinan-nu-muhammadiyah-ke-pm-anwar-ibrahim-sepakati-kerja-sama.
+2. Ciptakan Lingkungan Kerja yang Nyaman Lingkungan fisik yang nyaman dapat meningkatkan konsentrasi. Pastikan meja kerja Anda terorganisir dan bebas dari gangguan. Pertimbangkan penggunaan tanaman atau pencahayaan yang baik untuk menciptakan suasana yang mendukung produktivitas.
 
-Download Apps Detikcom Sekarang https://apps.detik.com/detik/
-        </p>
+3. Gunakan Teknologi untuk Mengelola Waktu Ada banyak aplikasi dan alat yang dapat membantu Anda mengelola waktu dengan lebih baik. Aplikasi seperti Trello atau Asana memungkinkan Anda untuk melacak proyek dan tenggat waktu, sementara Pomodoro Technique bisa membantu Anda membagi waktu kerja menjadi sesi yang lebih produktif.
+
+4. Istirahat Secara Teratur Mungkin terdengar kontra-intuitif, tetapi istirahat secara teratur dapat meningkatkan produktivitas. Luangkan waktu sejenak untuk bergerak atau melakukan aktivitas lain. Ini dapat membantu menyegarkan pikiran dan mengurangi kelelahan.
+
+5. Kolaborasi yang Efektif Komunikasi yang baik dalam tim sangat penting untuk menjaga produktivitas. Gunakan alat komunikasi seperti Slack atau Microsoft Teams untuk memudahkan kolaborasi. Pertimbangkan juga untuk mengadakan pertemuan singkat secara rutin untuk memastikan semua orang berada di halaman yang sama.
+
+Kesimpulan: Meningkatkan produktivitas di tempat kerja tidak harus sulit. Dengan menerapkan beberapa strategi sederhana ini, Anda dan tim Anda dapat bekerja lebih efisien dan mencapai tujuan yang telah ditetapkan. Ingat, produktivitas bukan hanya tentang bekerja lebih keras, tetapi juga tentang bekerja lebih cerdash
         </div>
        <br>
-        <span class="xs:w-full h-auto xs:px-4 xs:py-2 xs:text-sm shadow-md bg-indigo-300 rounded-md">#Teknologi</span>
+        <span class="xs:w-full h-auto xs:px-4 xs:py-2 xs:text-sm  shadow-md bg-indigo-300 rounded-md">#Teknologi</span>
       <div class="w-full h-auto bg-blue-200"> 
         
       </div>
+      <br> <br> 
+      <x-form-comentar></x-form-comentar>
+     
       <x-list-article></x-list-article>
-    </div>
+    </div> 
     </section>
 </body>
 </html>
